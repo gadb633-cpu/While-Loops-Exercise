@@ -86,5 +86,12 @@ i = len(num) -1
 while i >= 0:
     print(num[i])
     i -= 1
-    
+# 4
+data = [10, 30, 55, 20, 80]
+i = 0
+while i < len(data):
+    if data[i] > 50:
+        print([i])
+    i += 1    
+
     
