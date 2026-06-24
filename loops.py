@@ -80,5 +80,11 @@ while i < len(matrix):
         print(y[x])
         x += 1
     i += 1
+# 3
+num = [1,2,3,4,5]
+i = len(num) -1
+while i >= 0:
+    print(num[i])
+    i -= 1
     
     
