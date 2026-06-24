@@ -67,5 +67,18 @@ i =0
 while i < len(items):
         items.remove("x")
         i += 1
-print(items)    
+print(items)   
+# 2
+matrix = [[1,2],[3,4],[5,6]]
+i = 0
+
+while i < len(matrix):
+    y = matrix[i]
+    
+    x = 0
+    while x < len(y):
+        print(y[x])
+        x += 1
+    i += 1
+    
     
