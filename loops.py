@@ -34,4 +34,12 @@ agents = ["alpha","bravo","charlie"]
 i = 0
 while i < len(agents):
     print(agents[i])
-    i += 1              
+    i += 1          
+# 7
+scores = {"alpha":80,"bravo":95,"charlie":70}
+item = scores.items()
+i = 0
+for x in item:
+    for y in x:
+        print(y)
+
