@@ -48,4 +48,24 @@ i = 2
 while start * i < 100:
     start *= 2
     print(start)        
+# 9
+data = [3,7,2,-1,5]
+i = 0
+total = 0
+while i < len(data):
+    if data[i] < 0:
+        break
+    total += data[i]
+    i += 1
+print(total)
+# 10
 
+# part 2
+# 1
+items = ["a","x","b","x","x"]
+i =0
+while i < len(items):
+        items.remove("x")
+        i += 1
+print(items)    
+    
