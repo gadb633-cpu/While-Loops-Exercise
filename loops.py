@@ -42,4 +42,10 @@ i = 0
 for x in item:
     for y in x:
         print(y)
+# 8
+start = 1
+i = 2
+while start * i < 100:
+    start *= 2
+    print(start)        
 
