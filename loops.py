@@ -28,4 +28,10 @@ while i < len(items):
 i = 2
 while i <= 10:
     print(i)
-    i += 2             
+    i += 2   
+# 6
+agents = ["alpha","bravo","charlie"]
+i = 0
+while i < len(agents):
+    print(agents[i])
+    i += 1              
