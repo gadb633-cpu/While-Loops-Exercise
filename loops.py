@@ -16,5 +16,12 @@ while i <= 10:
     total += i
     i += 1
 print(total)    
-
+# 4
+items = [2,4,6,8]
+i = 0
+while i < len(items):
+    if items[i] > 5:
+        print(items[i])
+        break
+    i += 1    
              
