@@ -134,4 +134,23 @@ while row < len(matrix):
             break
         col+= 1
     row +=1        
+
+# 2
+matrix = [
+    [5, -1, 8],
+    [3, 4, -1],
+    [9, 2, 6]]
+row = 0    
+while row < len(matrix):
+    col = 0
+    while col < len(matrix[row]):
+        if matrix[row][col] < 0:
+            col +=1
+            continue
+            
+            
+        else:
+            print(matrix[row][col])
+        col +=1
     
+    row += 1        
