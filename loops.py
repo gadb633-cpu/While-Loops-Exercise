@@ -146,11 +146,24 @@ while row < len(matrix):
     while col < len(matrix[row]):
         if matrix[row][col] < 0:
             col +=1
-            continue
-            
-            
+            continue    
         else:
             print(matrix[row][col])
         col +=1
     
     row += 1        
+# 3
+matrix = [
+    [4, 7, 2],
+    [9, 0, 3],
+    [1, 8, 5]]
+row =0
+while row < len(matrix):
+    col = 0
+    while col < len(matrix[row]):
+        if matrix[row][col] == 0:
+            print("found zero")
+            break
+        col+= 1
+    row +=1        
+    
