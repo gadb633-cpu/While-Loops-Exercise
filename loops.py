@@ -166,4 +166,19 @@ while row < len(matrix):
             break
         col+= 1
     row +=1        
-    
+# 4
+matrix = [
+    [2, 3, 4],
+    [5, -1, 10],
+    [1, 1, 1]]
+row =0
+while row < len(matrix):
+    col = 0
+    total = 0
+    while col < len(matrix[row]):
+        if matrix[row][col] == -1:
+            break
+        total += matrix[row][col]
+        col+= 1
+    print(total)
+    row +=1    
