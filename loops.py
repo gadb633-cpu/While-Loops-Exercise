@@ -101,5 +101,37 @@ while i < len(guesses):
     if guesses[i] == secret:
         print(i + 1)
     i += 1
-        
+
+# part 3
+# 1
+# You need one loop for the entire list and another loop for the inner list.
+# 2
+# If you use break in the inner loop it will return to the outer loop and if you use break in the outer loop it will stop the loop completely
+# 3
+# Once it finds the specific value, it will stop the inner search and return to the outer loop and move to another list.
+# 4
+# If I want there to be a loop but not print anything, then I say continue if so and so and it will return to the beginning of the loop.
+# 5
+# It will continue to run on the inner loop until it finishes and it will return to the outer loop.
+
+# Practice
+# 1
+matrix = [
+    [2, 4, 6],
+    [3, 99, 5],
+    [8, 1, 7]]
+# for list in matrix:
+#     for rows in list:
+#         if rows > 50:
+#             print(rows)
+#             break
+row =0
+while row < len(matrix):
+    col = 0
+    while col < len(matrix[row]):
+        if matrix[row][col] > 50:
+            print(matrix[row][col])
+            break
+        col+= 1
+    row +=1        
     
