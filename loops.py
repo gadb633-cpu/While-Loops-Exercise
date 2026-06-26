@@ -182,3 +182,21 @@ while row < len(matrix):
         col+= 1
     print(total)
     row +=1    
+# 5
+matrix = [
+    [1, -2, 3],
+    [-4, 5, 6],
+    [7, 8, -9]]
+row = 0
+total = 0
+while row < len(matrix):
+    col = 0
+    while col < len(matrix[row]):
+        if matrix[row][col] < 0:
+            col+= 1
+            continue
+        else:
+            total += 1  
+            col +=1
+    row +=1     
+print(total)    
